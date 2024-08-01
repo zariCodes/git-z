@@ -1,0 +1,15 @@
+create table customer(
+c_id int primary key,
+c_name varchar(50),
+c_address varchar(40),
+c_mail varchar(60)
+);
+ insert into customer(c_id,c_name,c_address,c_mail) values ("03","zahra","Karachi","Khushal@g.mail.com");
+select * from customer;
+
+create table product(
+p_id int primary key,
+p_name varchar(50),
+p_price varchar(40),
+p_expiry date
+);
